@@ -66,11 +66,10 @@ p{
 .cerrar {
   display: inline-block;
   position: absolute;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 27px;
-  color: #f1f1f1;
+  text-shadow: 5px #585858;
+  top: -5px;
+  left: 7px;
+  color: #FAFAFA;
   font-size: 30px;
   font-weight: bold;
   transition: 0.3s;
