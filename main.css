@@ -24,3 +24,18 @@ a:hover{
   width: 40px;
   height: 40px;
 }
+span{
+  color: #8A0829;
+  margin: 0 100px;
+}
+.fotos{
+  display: inline-block;
+  background: #6E6E6E;
+  width: 150px;
+  height: 150px;
+  padding: 6px;
+}
+.pandas{
+  width: 150px;
+  height: 150px;
+}
