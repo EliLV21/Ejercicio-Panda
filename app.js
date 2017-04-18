@@ -1,3 +1,5 @@
+var restaurar = document.getElementsByTagName("div");
+var botonRestaurar = document.getElementById("reiniciar")
 var elimPan1 = document.getElementById("eliminarPanda1");
 var elimPan2 = document.getElementById("eliminarPanda2");
 var elimPan3 = document.getElementById("eliminarPanda3");
@@ -11,6 +13,13 @@ elimPan1.addEventListener("click",eliminar1);
 elimPan2.addEventListener("click",eliminar2);
 elimPan3.addEventListener("click",eliminar3);
 elimPan4.addEventListener("click",eliminar4);
+reiniciar.addEventListener("click",reiniciarTodo)
+
+function reiniciarTodo (){
+  for(var i=0;i<restaurar.length;i++){
+    restaurar[i].style.display = "block";
+    }
+};
 
 
 function eliminar1(){
